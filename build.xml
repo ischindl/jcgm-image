@@ -30,6 +30,8 @@
 			includes="net/sf/jcgm/image/**, net/sf/jcgm/imageio/**">
 			<service type="javax.imageio.spi.ImageReaderSpi" 
 				provider="net.sf.jcgm.imageio.plugins.cgm.CGMImageReaderSpi"/>
+			<service type="javax.imageio.spi.ImageReaderSpi"
+				provider="net.sf.jcgm.imageio.plugins.cgm.CGMZImageReaderSpi"/>
 			<service type="org.apache.xmlgraphics.image.loader.spi.ImagePreloader" 
 				provider="net.sf.jcgm.image.loader.cgm.PreloaderCGM"/>
 			<service type="org.apache.xmlgraphics.image.loader.spi.ImageLoaderFactory"
